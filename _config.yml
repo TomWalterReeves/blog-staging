@@ -1,0 +1,44 @@
+title: "Sort of about energy"
+author: "Tom Reeves"
+description: "I’m Tom Reeves, an engineer working in energy and currently taking some time off to travel. This is a place to channel the energy I usually spend going down Wikipedia rabbit holes." 
+
+markdown: kramdown
+
+# Email / Social media user names used by the minima theme:
+# All of these are optional and can be removed or commented out
+email: "mail@tom-reeves.com"
+#twitter_username: "twitteruser"
+#github_username: "githubuser"
+linkedin_username: "thomas-reeves"
+#facebook_username: username
+#flickr_username: username
+#instagram_username: username
+#pinterest_username: username
+#youtube_username: username
+#googleplus_username: +username
+
+#########################################################################################
+######### Nothing below needs to be changed (unless you know what you're doing) #########
+#########################################################################################
+theme: "minima"
+
+rss: rss
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
