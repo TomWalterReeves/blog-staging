@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_950f995341e8e528a91937df76c31fd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+<div style="
+    position: fixed; 
+    bottom: 30px; left: 30px; width: 320px; 
+    background-color: white; 
+    border:2px solid #ccc; 
+    z-index:9999; 
+    font-size:14px; 
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+">
+<div style="margin-top: 6px">
+  <div style="margin-bottom:4px;"><span style="background:#FFD84D;width:14px;height:14px;display:inline-block;border:1px solid #aaa;"></span> SEC-built thermal power generation</div>
+  <div style="margin-bottom:4px;"><span style="background:#B33939;width:14px;height:14px;display:inline-block;border:1px solid #aaa;"></span> Yallourn</div>
+  <div style="margin-bottom:4px;"><span style="background:#A4C2AF;width:14px;height:14px;display:inline-block;border:1px solid #aaa;"></span> SEC-built hydro power generation</div>
+  <div style="margin-bottom:4px;"><span style="background:#2F5233;width:14px;height:14px;display:inline-block;border:1px solid #aaa;"></span> Kiewa Hydro (around Mt Beauty)</div>
+  <div style="margin-bottom:4px;"><span style="background:#98A3A3;width:14px;height:14px;display:inline-block;border:1px solid #aaa;"></span> Non-SEC facility</div>
+</div>
+</div>
+    
+            <div class="folium-map" id="map_950f995341e8e528a91937df76c31fd7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_950f995341e8e528a91937df76c31fd7 = L.map(
+                "map_950f995341e8e528a91937df76c31fd7",
+                {
+                    center: [-37.5, 145.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7.3,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d073298de48e3685e36b0a750e817fb1 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_d073298de48e3685e36b0a750e817fb1.addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            var circle_marker_6f9bf29e5e5766cb982936afb88a91cf = L.circleMarker(
+                [-38.253, 146.57],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD84D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 56.41276451300716, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_6f9bf29e5e5766cb982936afb88a91cf.bindTooltip(
+                `<div>
+                     Loy Yang A<br>Coal (Brown)<br>2210 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_403a9cb7995f39960f9e4b3d88d921cd = L.circleMarker(
+                [-38.294, 146.391],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD84D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 48.0, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_403a9cb7995f39960f9e4b3d88d921cd.bindTooltip(
+                `<div>
+                     Hazelwood<br>Coal (Brown)<br>1600 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e9628f9758f532f6bfd57e01f3de1189 = L.circleMarker(
+                [-36.229, 148.18],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 46.475800154489, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_e9628f9758f532f6bfd57e01f3de1189.bindTooltip(
+                `<div>
+                     Murray<br>Hydro<br>1500 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7a192e96b497c9e0c170b10c0d9fb073 = L.circleMarker(
+                [-38.198, 146.404],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#B33939", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 46.164921748011224, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_7a192e96b497c9e0c170b10c0d9fb073.bindTooltip(
+                `<div>
+                     Yallourn<br>Coal (Brown)<br>1480 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_389a091c0710b0540788a61ee3f93a28 = L.circleMarker(
+                [-38.254, 146.571],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD84D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 37.94733192202055, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_389a091c0710b0540788a61ee3f93a28.bindTooltip(
+                `<div>
+                     Loy Yang B<br>Coal (Brown)<br>1000 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f41eb233f7e6f83538f85ed88403e16b = L.circleMarker(
+                [-38.071, 142.774],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28.548905408088764, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_f41eb233f7e6f83538f85ed88403e16b.bindTooltip(
+                `<div>
+                     Mortlake<br>Gas (OCGT)<br>566 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_acfcf36b946317f8f7ab6a18d33e5139 = L.circleMarker(
+                [-37.829, 144.884],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD84D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 26.832815729997478, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_acfcf36b946317f8f7ab6a18d33e5139.bindTooltip(
+                `<div>
+                     Newport<br>Gas (Steam)<br>500 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f6fa081260f561493ab25677b06a4614 = L.circleMarker(
+                [-36.861, 147.211],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2F5233", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.54595307366712, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_f6fa081260f561493ab25677b06a4614.bindTooltip(
+                `<div>
+                     Bogong / Mackay<br>Hydro<br>353 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_cd765e5ce6c248d81cc64b3c5d970e47 = L.circleMarker(
+                [-37.813, 144.812],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 21.196226079186832, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_cd765e5ce6c248d81cc64b3c5d970e47.bindTooltip(
+                `<div>
+                     Laverton North<br>Gas (OCGT)<br>312 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5788d22c9bf34aa84e98807b377dcfa7 = L.circleMarker(
+                [-38.251, 146.536],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.784609690826528, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_5788d22c9bf34aa84e98807b377dcfa7.bindTooltip(
+                `<div>
+                     Valley Power Peaking<br>Gas (OCGT)<br>300 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e5504ee081d5512bd6e50e2829ca06b = L.circleMarker(
+                [-38.313, 146.471],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD84D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.1196026446498, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_4e5504ee081d5512bd6e50e2829ca06b.bindTooltip(
+                `<div>
+                     Jeeralang B<br>Gas (OCGT)<br>228 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_de49f128d1e4c817fa8af31aeb651c80 = L.circleMarker(
+                [-38.313, 146.471],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD84D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.13942822850284, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_de49f128d1e4c817fa8af31aeb651c80.bindTooltip(
+                `<div>
+                     Jeeralang A<br>Gas (OCGT)<br>204 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d624720353a8b664f64ab6136d2257cc = L.circleMarker(
+                [-36.554, 147.531],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.321764610482532, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_d624720353a8b664f64ab6136d2257cc.bindTooltip(
+                `<div>
+                     Dartmouth<br>Hydro<br>185 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a157e8da112df14fbc56cc718a9ec303 = L.circleMarker(
+                [-37.67, 144.946],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.646085772486357, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_a157e8da112df14fbc56cc718a9ec303.bindTooltip(
+                `<div>
+                     Somerton<br>Gas (OCGT)<br>170 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e46db88a66fcd4157af712284193574d = L.circleMarker(
+                [-38.242, 146.411],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#FFD84D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.646085772486357, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_e46db88a66fcd4157af712284193574d.bindTooltip(
+                `<div>
+                     Energy Brix<br>Coal (Brown)<br>170 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5a8200693a37c8eb31925d547f43ddfb = L.circleMarker(
+                [-38.403, 144.189],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.696938456699067, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_5a8200693a37c8eb31925d547f43ddfb.bindTooltip(
+                `<div>
+                     Anglesea<br>Coal (Brown)<br>150 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9af7ff4d64a06db7d07cf4af71800671 = L.circleMarker(
+                [-37.235, 145.918],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.145341380123986, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_9af7ff4d64a06db7d07cf4af71800671.bindTooltip(
+                `<div>
+                     Eildon<br>Hydro<br>120 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_f7b2682be26b542529102b140158d472 = L.circleMarker(
+                [-37.827, 147.622],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.509995655950526, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_f7b2682be26b542529102b140158d472.bindTooltip(
+                `<div>
+                     Bairnsdale<br>Gas (OCGT)<br>92 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c4c0e845c6f4f6315ff23487b75114d0 = L.circleMarker(
+                [-36.872, 147.187],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2F5233", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.448809448814172, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_c4c0e845c6f4f6315ff23487b75114d0.bindTooltip(
+                `<div>
+                     West Kiewa<br>Hydro<br>62 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_7eea537595da9c406df6199d049cc600 = L.circleMarker(
+                [-38.306, 145.19],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.959899496852959, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_7eea537595da9c406df6199d049cc600.bindTooltip(
+                `<div>
+                     Hastings<br>Gas (OCGT)<br>44 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c295988b71479059f35579f09fea642c = L.circleMarker(
+                [-38.103, 147.077],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.959899496852959, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_c295988b71479059f35579f09fea642c.bindTooltip(
+                `<div>
+                     Longford<br>Gas (OCGT)<br>44 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_abd50869d45ffdd3088e7f7255f993a5 = L.circleMarker(
+                [-36.064, 147.068],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.4621977685614045, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_abd50869d45ffdd3088e7f7255f993a5.bindTooltip(
+                `<div>
+                     Hume<br>Hydro<br>29 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_84b9bae8319bd2e9dce192fcfb1f0d40 = L.circleMarker(
+                [-36.841, 147.194],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#2F5233", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.4621977685614045, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_84b9bae8319bd2e9dce192fcfb1f0d40.bindTooltip(
+                `<div>
+                     Clover<br>Hydro<br>29 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_37d7ee6ffa9d6d2fc4aa5342a370e345 = L.circleMarker(
+                [-37.171, 145.732],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.326661530556787, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_37d7ee6ffa9d6d2fc4aa5342a370e345.bindTooltip(
+                `<div>
+                     Rubicon<br>Hydro<br>13 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8b161863ad3b62ef76cd92b2950dfdd9 = L.circleMarker(
+                [-36.142, 147.225],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.156921938165305, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_8b161863ad3b62ef76cd92b2950dfdd9.bindTooltip(
+                `<div>
+                     Banimboola<br>Hydro<br>12 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e2f87541c37f6cd3b6f9b26561d19035 = L.circleMarker(
+                [-38.195, 146.541],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.794733192202055, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_e2f87541c37f6cd3b6f9b26561d19035.bindTooltip(
+                `<div>
+                     Traralgon Network Support<br>Gas (Reciprocating)<br>10 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4a37cd3a4a83977851cfc661283128f2 = L.circleMarker(
+                [-36.005, 146.008],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.5999999999999996, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_4a37cd3a4a83977851cfc661283128f2.bindTooltip(
+                `<div>
+                     Yarrawonga<br>Hydro<br>9 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_0a498869788c0e8b76c1c1c2f845e891 = L.circleMarker(
+                [-37.235, 145.918],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_0a498869788c0e8b76c1c1c2f845e891.bindTooltip(
+                `<div>
+                     Eildon<br>Hydro<br>4 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_14d722021e408fde02e3c4ba18374f01 = L.circleMarker(
+                [-38.083, 146.777],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_14d722021e408fde02e3c4ba18374f01.bindTooltip(
+                `<div>
+                     Glenmaggie<br>Hydro<br>3 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6cc6b9b7e407b90e895a88e06048d019 = L.circleMarker(
+                [-36.843, 146.679],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_6cc6b9b7e407b90e895a88e06048d019.bindTooltip(
+                `<div>
+                     William Hovel<br>Hydro<br>1 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_3fe33542198dd3aed01a6272c8ce5557 = L.circleMarker(
+                [-38.002, 145.272],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#A4C2AF", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_3fe33542198dd3aed01a6272c8ce5557.bindTooltip(
+                `<div>
+                     Hallam<br>Hydro<br>1 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_6fea765730ed0296ea2b0add2bbef5f5 = L.circleMarker(
+                [-37.562, 143.856],
+                {"bubblingMouseEvents": true, "color": "#98A3A3", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#98A3A3", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 1}
+            ).addTo(map_950f995341e8e528a91937df76c31fd7);
+        
+    
+            circle_marker_6fea765730ed0296ea2b0add2bbef5f5.bindTooltip(
+                `<div>
+                     Ballarat Hospital<br>Gas (Reciprocating)<br>1 MW
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

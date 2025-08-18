@@ -19,6 +19,14 @@ In the early 20th century Victorias demand for electricity was rising through in
 
 Victoria looked to the development of large scale brown coal power stations in the west of Germany and saw an opportunity to utilise brown coal reserves in the Latrobe Valley, around 130km from Melbourne. In 1918 a State Electricity Commission of Victoria (SECV) was established, headed by John Monash (I guess we really only had one engineer in Victoria at the time), to build and manage the generation and distribution of the new state grid. 
 
+<iframe 
+  src="/assets/Australia/vic_power_map.html" 
+  width="100%" 
+  height="650px" 
+  style="border: 1px solid #ddd;" 
+  frameborder="0">
+</iframe>
+
 Over the next 70 years the SECV would grow and grow. The vast majority of the generation came from brown coal in the Latrobe valley beginning with Yallourn Power Station commencing transmission to Melbourne in 1924. This was expanded along with the construction additional large scale facilities at Loy Yang and Hazelwood. The SEC also invested in hydro power facilities both as part of the Snowy. Hydro Scheme and Kiewa Valley Hydro.  
 
 ---
