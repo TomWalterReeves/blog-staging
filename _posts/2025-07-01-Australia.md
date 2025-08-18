@@ -1,3 +1,8 @@
+---
+title: "Powering Victoria: The Rise and Fall of Coal, and the Future of Hydro"
+tags: [Sort of about energy in...]
+---
+
 # Powering Victoria: The Rise and Fall of Coal, and the Future of Hydro
 
 I grew up in Eastern Victoria in the high country and on the Gippsland coast. Without knowing it my nerdy interest in energy as well as the hobbies I have and the environment I interacted with was built and shaped by the State Electricity Commission of Victoria (SECV).  Two towns, both built by and for the SEC, best exemplify the dual history of electricity generation and how it shaped their respective regions. 
