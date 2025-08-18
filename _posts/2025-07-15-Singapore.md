@@ -3,7 +3,7 @@ title: "How Singapore's electricity generation refelcts it's history"
 tags: [Sort of about energy in...]
 ---
 
-# How Singapore's electricity generation refelcts it's history
+# Singapore | Electricity Generation Through History
 
 Electricity generation in Singapore's just over 60 year history as an independent country has consisted almost entirety of self generated power from imported oil and gas. It has already once shifted its electricity generation sector from being almost completely oil based to a mix of natural gas, oil and a small amount of solar energy but now faces a new challenge of transitioning to a green energy supply.
 

@@ -3,7 +3,7 @@ title: "Powering Victoria: The Rise and Fall of Coal, and the Future of Hydro"
 tags: [Sort of about energy in...]
 ---
 
-# Powering Victoria: The Rise and Fall of Coal, and the Future of Hydro
+# Australia | From Coal Mines to Mountain Streams
 
 I grew up in Eastern Victoria in the high country and on the Gippsland coast. Without knowing it my nerdy interest in energy as well as the hobbies I have and the environment I interacted with was built and shaped by the State Electricity Commission of Victoria (SECV).  Two towns, both built by and for the SEC, best exemplify the dual history of electricity generation and how it shaped their respective regions. 
 Yallourn the heart of the Latrobe Valley was built on and around brown coal, the powerhouse of electricity in Victoria, housed thousands of SEC workers and was eventually subsumed into the mine itself. 
