@@ -27,6 +27,8 @@ Victoria looked to the development of large scale brown coal power stations in t
   frameborder="0">
 </iframe>
 
+***Map of Victoria's thermal (coal and gas) and hydro power stations, with the diameter of each representing its generation capacity. The vast majority of pre-renewables power generation in Victoria was developed by the SECV.***
+
 Over the next 70 years the SECV would grow and grow. The vast majority of the generation came from brown coal in the Latrobe valley beginning with Yallourn Power Station commencing transmission to Melbourne in 1924. This was expanded along with the construction additional large scale facilities at Loy Yang and Hazelwood. The SEC also invested in hydro power facilities both as part of the Snowy. Hydro Scheme and Kiewa Valley Hydro.  
 
 ---
