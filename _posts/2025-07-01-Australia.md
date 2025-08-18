@@ -27,7 +27,12 @@ Over the next 70 years the SECV would grow and grow. The vast majority of the ge
 
 The SECV built Yallourn, not just as a power station but a planned integrated community with a footy field, schools, shops and of course an adjacent and continually expanding power station and open cut mine. John Monash mandated the houses in this model community should have "sufficient land to permit the tenant to keep a horse and a garden". 
 
+![Yallourn](https://github.com/user-attachments/assets/8577965e-09c4-46bd-a51c-53d496c9840d)
+
 From 1920 to 1950 it grew to over 5,000 residents, the vast majority SECV employees but by 1980 more power was needed and the it was decided to move the residents and any building of value to nearby towns and allow the footprint to be swallowed by the open cut mine. 
+
+![yallourn-early](https://github.com/user-attachments/assets/a1ed9531-5c34-4edc-931a-6532d81f83f5)
+
 
 Yallourn Power station is now also nearing its end with decommissioning announced for 2028. As renewable energy and storage reshape the market, inflexible coal plants now struggle to compete. Once running flat-out around the clock, is increasingly asked to ramp up and down, something it was never designed to do. 
 
@@ -36,6 +41,9 @@ Yallourn Power station is now also nearing its end with decommissioning announce
 ## Mount Beauty: Hydro Power and a Town in the High Country
 
 Like Yallourn, Mount Beauty was built as a company town by the SECV but this scheme aimed to harness the snowmelt and rainfall of the Bogong High Plains. The Kiewa Hydro-Electric Scheme commenced development in 1938 but was initially delayed by World War II and was eventually completed in 1961. Mount Beauty and nearby Bogong were built to house the hundreds of workers needed to construct dams, aqueducts, tunnels, and multiple power stations including West Kiewa and Clover. 
+
+![Falls Creek](https://github.com/user-attachments/assets/b992a372-6543-40bc-9569-ecf5f17b9d19)
+
 
 The construction opened up more reliable access to the high plains and land previously only used for summer grazing around the new Rocky Valley Reservoir built for the project. A ski lodge was built, following by a rope tow and then in 1957 Australia's first chairlift. 
 
