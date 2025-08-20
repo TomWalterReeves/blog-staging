@@ -7,6 +7,10 @@ tags: [Orbost to Orbost]
 
 Orbost to Orbost is an idea that has been churning away in the back of my mind for years. The seed was planted when I stumbled across The Man in Seat 61 (seat61.com), the home of all train travel nerdery, and saw the map showing how you could travel from Singapore to London almost entirely by train.
 
+![ORBOST VictorianCollections-large](https://github.com/user-attachments/assets/d4233fee-4eea-436a-824d-e1d21c41f98c)
+
+
+
 Meanwhile, I discovered that Orbost, the small town in East Gippsland where I went to high school, was named after a farm on the Isle of Skye in Scotland. Orbost, Australia was once the end of the Gippsland rail line from Melbourne, while Orbost, Scotland is just a short ferry ride from the end of the West Highland Line in the north-west of Scotland. In theory, you could once have boarded a train in Orbost, travelled to Melbourne, taken the Overland to Adelaide, joined the Ghan to Darwin, hopped (yes, not a train) into Indonesia, crossed Java, ferried to Singapore, and then carried on almost uninterrupted* by rail all the way to the Mallaig–Skye ferry in Scotland.
 
 The idea of connecting the two Orbosts stuck with me. And this trip is my chance to try it.
@@ -17,9 +21,11 @@ The idea of connecting the two Orbosts stuck with me. And this trip is my chance
 
 ## The Orbost to Orbost Route
 
-***1950s to the mid 1970s***
-
 When I first thought of this trip, before COVID, the route was relatively straightforward: train across South-East Asia, hop up into China, and then take the Trans-Siberian or Trans-Mongolian Railway into Europe. That’s not really an option anymore. COVID gave governments an excuse to tighten borders, and Russia’s invasion of Ukraine has all but closed off the Siberian route to travellers like me.
+
+<img width="1287" height="798" alt="SEAT61" src="https://github.com/user-attachments/assets/c386d0de-0ee1-4a11-87fa-ae72c796ec95" />
+
+
 
 So Georgie and I reimagined it. She’d long wanted to see Central Asia, which gave us a natural alternative. Instead of pushing through Russia, we’ll travel west through the Silk Road countries, cross the Caucasus into Turkey, and then make our way up through Europe. It’s not entirely trains, there will be a few flights to skip the impossible stretches, but the core idea remains: to travel from Orbost, Victoria, to Orbost, Scotland, mostly overland.
 
@@ -39,7 +45,11 @@ But I would love to have some broader global context and knowledge base to draw 
 
 The journey, of course, begins in Orbost. From there we drove west through the Latrobe Valley, finished packing up our lives in Melbourne and waved goodbye to friends and family, headed to the High Country for a week of Australian road trip, and on to Sydney. This took us through Yallourn and Mount Beauty, the SEC towns that shaped Victoria’s power system, which I’ve written about here. 
 
+![IMG_6322](https://github.com/user-attachments/assets/6e5d05be-a2de-422e-887f-024705c50f44)
+
 As much as I’d like to imagine a full overland journey across Australia, the reality is that the country is too big and too expensive to cross by train for this trip. So Sydney was where the overland journey promise was first broken and the flights began.
+
+![IMG_6517](https://github.com/user-attachments/assets/0bd1c90e-80d2-4edb-a22a-5ec45aaa6de0)
 
 Our path out of Australia was a hopscotch: Sydney → Brisbane → Cairns → Japan. A stop in Japan with a group of friends is of course mandatory for every good Australian holidaymaker of the last two years so we explored cities, embarrassed ourselves at Karaoke, skied, and took an impractically long Shinkansen journey halfway down the country from Hokkaido to Hiroshima. Eventually we boarded one last flight into Singapore, the city where the overland journey truly begins (See my Singapore post here). 
 
