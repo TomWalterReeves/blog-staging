@@ -1,9 +1,9 @@
 ---
-title: "Orbost to Orbost Part 1: Orbost to Singapore"
+title: "Orbost to Singapore (via Japan)"
 tags: [Orbost to Orbost]
 ---
 
-### Travelling Orbost to Orbost
+### **Travelling Orbost to Orbost**
 
 # Orbost to Singapore (via Japan)
 

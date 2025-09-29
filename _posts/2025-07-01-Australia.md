@@ -3,7 +3,7 @@ title: " Australia: From Coal Mines to Mountain Streams"
 tags: [Sort of about energy in...]
 ---
 
-### Sort of about energy in
+Sort of about energy in
 
 # Australia: From Coal Mines to Mountain Streams
 
