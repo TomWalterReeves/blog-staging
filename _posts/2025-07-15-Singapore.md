@@ -3,7 +3,9 @@ title: " Singapore: Electricity Generation Through History"
 tags: [Sort of about energy in...]
 ---
 
-Sort of about energy in
+<div class="intro">
+  <h3>Sort of about energy in</h3>
+</div>
 
 # Singapore: Electricity Generation Through History
 

@@ -3,7 +3,9 @@ title: " Australia: From Coal Mines to Mountain Streams"
 tags: [Sort of about energy in...]
 ---
 
-Sort of about energy in
+<div class="intro">
+  <h3>Sort of about energy in</h3>
+</div>
 
 # Australia: From Coal Mines to Mountain Streams
 

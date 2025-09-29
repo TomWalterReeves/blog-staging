@@ -3,7 +3,9 @@ title: "Orbost to Singapore (via Japan)"
 tags: [Orbost to Orbost]
 ---
 
-### **Travelling Orbost to Orbost**
+<div class="intro">
+  <h3>Travelling Orbost to Orbost</h3>
+</div>
 
 # Orbost to Singapore (via Japan)
 
