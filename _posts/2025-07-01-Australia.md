@@ -3,12 +3,6 @@ title: " Australia: From Coal Mines to Mountain Streams"
 tags: [Sort of about energy in...]
 ---
 
-<div class="intro">
-  <h3>Sort of about energy in</h3>
-</div>
-
-# Australia: From Coal Mines to Mountain Streams
-
 I grew up in Eastern Victoria in the high country and on the Gippsland coast. Without knowing it my nerdy interest in energy as well as the hobbies I have and the environment I interacted with was built and shaped by the State Electricity Commission of Victoria (SECV). Two towns, both built by and for the SEC, best exemplify the dual history of electricity generation and how it shaped their respective regions. Yallourn the heart of the Latrobe Valley was built on and around brown coal, the powerhouse of electricity in Victoria, housed thousands of SEC workers and was eventually subsumed into the mine itself. Mount Beauty, at the foot of the high country, was also built by the SEC as a company town to house the workers for the Kiewa Valley Hydro System and would grow to be the gateway to Falls Creek, the wider high country. The history and future of these two towns parallel the trajectory of the power plants they were built for with the rise and (frustratingly slow) fall of coal power and the growing value of hydro as a battery to unlock renewable generation going forward. **[1]**
 
 ***
